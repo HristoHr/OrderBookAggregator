@@ -64,10 +64,6 @@ mvn exec:java -Dexec.mainClass="Main"
 
 Or if you have a JAR file:
 
-```bash
-java -cp target/OrderBookNexo-1.0-SNAPSHOT.jar Main
-```
-
 ## How It Works
 
 1. **Initialization**: The `Main` class creates a global `OrderBook` instance and sets up WebSocket connections to both Bitfinex and Kraken exchanges.
@@ -148,3 +144,4 @@ Best Ask: [50000.1, 1.5]
 - Implement order book depth limits
 - Add error handling and reconnection logic
 - Implement data persistence or export functionality
+
